@@ -1,7 +1,7 @@
 function Logo() {
   return (
     <div className="logo">
-      ___
+      Bake Box
     </div>
   )
 }

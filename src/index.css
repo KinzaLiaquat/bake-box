@@ -2,3 +2,18 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
 }
+
+.shop-header {
+  background: maroon;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 16px;
+  text-decoration: none;
+}
