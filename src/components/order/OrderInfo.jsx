@@ -1,5 +1,5 @@
 function OrderInfo() {
-  const quantity = 3
+  const quantity = 5
   const price = 450
   const delivery = 100
 
