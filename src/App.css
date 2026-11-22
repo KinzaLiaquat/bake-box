@@ -74,3 +74,25 @@ body {
     animation-range: entry 0% cover 30%;
   }
 }
+.how-to-order {
+  padding: 24px;
+}
+
+.steps {
+  display: flex;
+  gap: 16px;
+}
+
+.step {
+  flex: 1;
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.step:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(122, 31, 61, 0.25);
+}
