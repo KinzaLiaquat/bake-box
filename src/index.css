@@ -1,10 +1,47 @@
+:root {
+  --burgundy: #7a1f3d;
+  --burgundy-dark: #561329;
+  --cream: #fdf1e6;
+  --gold: #e8b95a;
+}
+
+body {
+  background: var(--cream);
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  font-family: 'Great Vibes', cursive;
+  font-size: 32px;
+}
+
+.shop-header {
+  background: var(--burgundy);
+}
+
+h2 {
+  color: var(--burgundy);
+  text-align: center;
+}
+
+.price { color: var(--burgundy); }
+
+.footer { background: var(--burgundy-dark); }
+
+.badge { background: var(--gold); }
+
+:root {
+  --burgundy: #800020;
+  --burgundy-dark: #5c0017;
+  --cream: #fff8f3;
+}
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
 }
 
 .shop-header {
-  background: maroon;
+  background: var(--burgundy);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -42,6 +79,21 @@ body {
   padding: 2px 8px;
   border-radius: 4px;
   font-size: 12px;
+}
+body {
+  background: var(--cream);
+}
+
+h2 {
+  color: var(--burgundy);
+}
+
+.price {
+  color: var(--burgundy);
+}
+
+.footer {
+  background: var(--burgundy-dark);
 }
 
 .badge-new {
@@ -95,4 +147,51 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 24px;
+}
+.card {
+  background: white;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(128, 0, 32, 0.25);
+}
+
+.review {
+  background: white;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.review:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(128, 0, 32, 0.2);
+}
+
+.nav-links a {
+  position: relative;
+  transition: opacity 0.3s;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+.badge {
+  transition: transform 0.3s;
+}
+
+.card:hover .badge {
+  transform: scale(1.1);
 }
