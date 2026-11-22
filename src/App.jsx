@@ -13,6 +13,7 @@ function App() {
       <Hero />
       <ProductSection />
       <ReviewSection />
+      <HowToOrder />
       <OrderInfo />
       <Footer />
     </div>
