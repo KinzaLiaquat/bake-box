@@ -1,4 +1,5 @@
 import ShopHeader from './components/layout/ShopHeader'
+import Hero from './components/layout/Hero'
 import ProductSection from './components/products/ProductSection'
 import ReviewSection from './components/reviews/ReviewSection'
 import OrderInfo from './components/order/OrderInfo'
@@ -8,6 +9,7 @@ function App() {
   return (
     <div>
       <ShopHeader />
+      <Hero />
       <ProductSection />
       <ReviewSection />
       <OrderInfo />
