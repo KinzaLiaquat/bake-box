@@ -78,3 +78,21 @@ body {
 .rating {
   color: gold;
 }
+.order-info {
+  margin: 24px;
+  padding: 16px;
+  border: 1px dashed #999;
+  border-radius: 8px;
+}
+
+.total {
+  font-weight: bold;
+}
+
+.footer {
+  background: #222;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 24px;
+}
