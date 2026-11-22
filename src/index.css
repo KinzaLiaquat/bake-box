@@ -48,3 +48,33 @@ body {
   background: green;
   color: white;
 }
+.review-section {
+  padding: 24px;
+}
+
+.reviews {
+  display: flex;
+  gap: 16px;
+}
+
+.review {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  flex: 1;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #d98c97;
+  flex-shrink: 0;
+}
+
+.rating {
+  color: gold;
+}

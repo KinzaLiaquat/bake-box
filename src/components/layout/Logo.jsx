@@ -1,7 +1,7 @@
 function Logo() {
   return (
     <div className="logo">
-      Bake Box
+      Noor's Bake Box
     </div>
   )
 }
