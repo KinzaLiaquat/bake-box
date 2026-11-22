@@ -195,3 +195,18 @@ h2 {
 .card:hover .badge {
   transform: scale(1.1);
 }
+.card,
+.review {
+  background: white;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover,
+.review:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(122, 31, 61, 0.25);
+}
+
+.nav-links a:hover {
+  color: var(--gold);
+}
